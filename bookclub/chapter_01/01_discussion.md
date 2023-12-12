@@ -9,11 +9,11 @@
 
 ## 1.1 What is refactoring?
 
-- [ ] Ask everyone what they think refactoring means
+- [x] Ask everyone what they think refactoring means
 
 * Changing code without changing what it does.
 
-- [ ] Ask everyone what are some reasons to refactor
+- [x] Ask everyone what are some reasons to refactor
 
 * Making code faster
 * Making code smaller
@@ -28,9 +28,9 @@ This book focuses on the human-readable and easy to maintain.
 
 If you think about it a lot of our time is spent reading and trying to understand code.  Why not make it easy on ourselves.  Also changing something without first understanding it can cause trouble.
 
-### [ ] - Arguments for refactoring
+### [x] - Arguments for refactoring
 
-- [ ] Ask everyone what reasons do they think of when it comes to refactoring code?
+- [x] Ask everyone what reasons do they think of when it comes to refactoring code?
 
 * economic: easier to maintain allows addition of new features faster
 * customer: fewer bugs, bugs are easier to fix
@@ -46,13 +46,13 @@ If you think about it a lot of our time is spent reading and trying to understan
 
 ## 1.2.1 Example Code Smell
 
-- [ ] What is the code smell here?
+- [x] What is the code smell here?
 
 It can mean many different things to different people.
 
 ## 1.2.2 Example rule
 
-- [ ] A rule however is very concise and easily understood.
+- [x] A rule however is very concise and easily understood.
 
 **Rule:**
 
@@ -64,15 +64,15 @@ It can mean many different things to different people.
 
 **--- Kent Beck**
 
-- [ ] Ask everyone: When should you refactor?
+- [x] Ask everyone: When should you refactor?
 
 * Make refactoring a part of your daily work
 
 6 Step workflow to solve any programing task [Page 5]
 
-- [ ] Notice how testing is usually part of the workflow.  This helps make refactoring a much safer process.  This book also explains how to refactor in a safe manner without tests.
+- [x] Notice how testing is usually part of the workflow.  This helps make refactoring a much safer process.  This book also explains how to refactor in a safe manner without tests.
 
-- [ ] Figure 1.4 [Page 6] goes into the steps of refactoring and how the compiler can assist in safe refactoring
+- [x] Figure 1.4 [Page 6] goes into the steps of refactoring and how the compiler can assist in safe refactoring
 
 * Every rule has a few refactoring patterns linked with it, making it easy to know exactly how to fix a problem.
 * Use the compiler to help make sure you don't introduce errors.
@@ -83,14 +83,14 @@ It can mean many different things to different people.
 
 **--- Kent Beck**
 
-- [ ] What do you think Kent Beck meant by this quote?
+- [x] What do you think Kent Beck meant by this quote?
 
 * Before making something new, start by refactoring, so it is easy to add our new code.
 * Having all the ingredients laid out and pre-measured before you start baking.
 
 ## 1.3.2 When should you not refactor?
 
-- [ ] What are some reasons in which you should not refactor code?
+- [x] What are some reasons in which you should not refactor code?
 
 * Proof of concept code
 * Code that is in maintenance mode and will soon be sunset.
