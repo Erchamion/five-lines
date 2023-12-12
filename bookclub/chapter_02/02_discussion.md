@@ -19,15 +19,15 @@ Refactoring -- Changing code to make it more human readable and maintainable wit
 
 ## 2.1.1 Making code better
 
-- [ ] Question: What do we mean by "readability"
-- [ ] Answer: Readability is the code's aptitude for communicating its intent
+- [x] Question: What do we mean by "readability"
+- [x] Answer: Readability is the code's aptitude for communicating its intent
 
 ![unreadable code](02_01_unreadable_code.png)
 
 ![more readable code](02_02_readable_code.png)
 
-- [ ] Question: what makes the changed code more readable?
-- [ ] Answer:
+- [x] Question: what makes the changed code more readable?
+- [x] Answer:
 
 1. fixes bad param name
 2. remove unhelpful comment
@@ -42,7 +42,7 @@ Now that the code has been cleaned up we can now see how to simplify it even mor
 
 **MAINTAINABILITY**
 
-- [ ] Question: What does maintainability mean to you?
+- [x] Question: What does maintainability mean to you?
 
 Maintainability is an expression of how much we need to investigate to safely, quickly, and easily modify the the code to accommodate our new goal.
 
@@ -56,13 +56,13 @@ Root of fragility is global state.  Global here means outside the scope we are c
 
 A useful trick to help think about global state is to look for braces: {...}.  Everything outside the braces is considered global state for everything inside the braces.
 
-- [ ] Question: What is the problem with global state?
-- [ ] Answer: When data is global, it can be accessed or modified by someone who associates different properties with it, thereby inadvertently breaking our properties.  Properties that we do not explicitly check in the code are called **invariants**.
+- [x] Question: What is the problem with global state?
+- [x] Answer: When data is global, it can be accessed or modified by someone who associates different properties with it, thereby inadvertently breaking our properties.  Properties that we do not explicitly check in the code are called **invariants**.
 
-- [ ] Question: What is an invariant?
-- [ ] Answer:  Examples: "This number will never be negative" or "This file definitely exists".
+- [x] Question: What is an invariant?
+- [x] Answer:  Examples: "This number will never be negative" or "This file definitely exists".
 
-- [ ] ASK: Who would like to summarize the example of how nonlocal invariants corrupt example below?  Page 15
+- [x] ASK: Who would like to summarize the example of how nonlocal invariants corrupt example below?  Page 15
 
 ![how non local invariants corrupt](02_04_how_nonlocal_invariants_corrupt.png)
 
@@ -84,11 +84,11 @@ To sum up:
 
 ## 2.2 Gaining speed, flexibility, and stability
 
-- [ ] Ask: Who would like to give us a summary of this section?
+- [x] Ask: Who would like to give us a summary of this section?
 
 * Cleaner codebase means we are: more productive, make fewer mistakes, and it is more fun!
 
-## 2.2.1 Favor composition over inheritance
+## **Next Week** 2.2.1 Favor composition over inheritance
 
 - [ ] Ask: Who would like to tell us what he means by composition over inheritance?
 
