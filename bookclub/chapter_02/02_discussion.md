@@ -108,7 +108,7 @@ A system build around composition allows us to combine and reuse code in a much 
 
 ## 2.2.2 Changing code by addition rather than modification
 
-- [ ] Ask: What does he mean by changing code by addition rather than modification?
+- [x] Ask: What does he mean by changing code by addition rather than modification?
 
 * Composition allows for **change by addition**.  This means we can add or change functionality without affecting other existing functionality.
 * Often referred to as the open-closed principal.
