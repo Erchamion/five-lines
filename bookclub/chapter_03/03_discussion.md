@@ -3,11 +3,10 @@
 		- [3.1.1 RULE: Five lines](#311-rule-five-lines)
 			- [EXPLANATION](#explanation)
 			- [SMELL](#smell)
-			- [ITENT](#itent)
+			- [INTENT](#intent)
 			- [References](#references)
 	- [3.2 Introducing a refactoring pattern to break up functions](#32-introducing-a-refactoring-pattern-to-break-up-functions)
 			- [NOTE](#note)
-		- [3.2.1 Refactoring Pattern: Extact Method](#321-refactoring-pattern-extact-method)
 			- [DESCRIPTION](#description)
 			- [PROCESS](#process)
 			- [EXAMPLE](#example)
@@ -17,7 +16,7 @@
 			- [STATEMENT](#statement)
 			- [EXPLANATION](#explanation-1)
 			- [SMELL](#smell-1)
-			- [INTENT](#intent)
+			- [INTENT](#intent-1)
 			- [REFERENCES](#references-1)
 		- [3.3.2 Applying the rule](#332-applying-the-rule)
 	- [3.4 Properties of a good function name](#34-properties-of-a-good-function-name)
@@ -26,7 +25,7 @@
 			- [Statement](#statement-1)
 			- [Explanation](#explanation-2)
 			- [SMELL](#smell-2)
-			- [INTENT](#intent-1)
+			- [INTENT](#intent-2)
 			- [REFERENCES](#references-2)
 		- [3.5.2 Applying the rule](#352-applying-the-rule)
 	- [SUMMARY](#summary)
@@ -67,7 +66,7 @@ Having long methods is a smell.  Too much to keep up with.  So what is long?
 
 To help answer this question we can reference another smell, methods should do one thing.  Five lines of code is exactly what is necessary to do one meaningful thing, then this limit also prevents us from breaking that smell.
 
-#### ITENT
+#### INTENT
 
 Smaller methods are preferred because the naming of the method provides an opportunity to communicate intent.  Method naming is equivalent to putting a comment at least every 5 lines.
 
@@ -96,7 +95,7 @@ Congradulations we have completed our first two refactorings!  The process we ju
 
 Because we only moved code around, the risk of introducing errors is minimal, especially since the compiler told us when we forgot parameters.
 
-### 3.2.1 Refactoring Pattern: Extact Method
+**START HERE** ### 3.2.1 Refactoring Pattern: Extact Method
 
 #### DESCRIPTION
 
