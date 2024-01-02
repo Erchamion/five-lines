@@ -7,6 +7,7 @@
 			- [References](#references)
 	- [3.2 Introducing a refactoring pattern to break up functions](#32-introducing-a-refactoring-pattern-to-break-up-functions)
 			- [NOTE](#note)
+		- [3.2.1 Refactoring Pattern: Extact Method](#321-refactoring-pattern-extact-method)
 			- [DESCRIPTION](#description)
 			- [PROCESS](#process)
 			- [EXAMPLE](#example)
@@ -95,7 +96,7 @@ Congradulations we have completed our first two refactorings!  The process we ju
 
 Because we only moved code around, the risk of introducing errors is minimal, especially since the compiler told us when we forgot parameters.
 
-**START HERE** ### 3.2.1 Refactoring Pattern: Extact Method
+### 3.2.1 Refactoring Pattern: Extact Method
 
 #### DESCRIPTION
 
@@ -103,7 +104,7 @@ Extract method take part of one method and extracts it into its own method.  Thi
 
 #### PROCESS
 
-- [ ] Show example: Undo previous changes and use VS Code to help extract methods
+- [x] Show example: Undo previous changes and use VS Code to help extract methods
 
 #### EXAMPLE
 
@@ -164,7 +165,7 @@ You can read more about the smell "The content of a function should be on the sa
 
 Back to draw method.
 
-- [ ] Ask:  Who would like to tell us why draw is in violation of rule `Either call or Pass`?
+- [x] Ask:  Who would like to tell us why draw is in violation of rule `Either call or Pass`?
 
 ## 3.4 Properties of a good function name
 
@@ -172,16 +173,16 @@ What is a good name for the new method?
 
 What makes a good method name?
 
-- [ ] Ask:  What makes a good method name?
+- [x] Ask:  What makes a good method name?
 
 * describe functions intent
 * it should be complete
 * it should capture everyting the function does
 * it should be understandable for someone working in the domain.
 
-- [ ] Ask: after code refactoring of draw, why does this now adhere to the rule "Either call or Pass"?
+- [x] Ask: after code refactoring of draw, why does this now adhere to the rule "Either call or Pass"?
 
-- [ ] Refactor Update Method
+- [x] Refactor Update Method
 
 ## 3.5 Breaking up functions that are doing too much
 
