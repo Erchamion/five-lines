@@ -14,10 +14,21 @@
 - Ask for feedback on columns
 - If there are more ideas for column topics feel free to change them up
 
-### Chapter: #
+### Chapter:
 
 | New things I learned | Things that confuse me | This is Hogwash         |
 |:---:                 |:---:                   |:---:                    |
+
+**OR**
+
+**Chapter: x**
+
+**Section: x.x**
+
+| New things I learned | Things that confuse me | This is Hogwash         |
+|:---:                 |:---:                   |:---:                    |
+
+**...Repeat for all sections**
 
 ## 2. Round robbin teaching a section
 
